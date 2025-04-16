@@ -1,0 +1,6 @@
+lim = 120;
+nome = input("Qual o seu nome? ");
+if len(nome[0:]) <= lim:
+  print("Seja muito bem-vindo {}!".format(nome));
+else:
+  print("Número de caracteres excedido.");
